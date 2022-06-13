@@ -185,9 +185,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 				UNCOMMENT BELOW 3 LINES - To execute using forking or combination option 
 				<forkCount>2</forkCount> <reuseForks>true</reuseForks> <reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory> 
 				</configuration> </execution> </executions> </plugin> -->
- 
-
-
-		</plugins>
+	  </plugins>
 	</build>
 </project>
