@@ -37,7 +37,7 @@ public class ApplicationHooks {
 	public void quitBrowser() {
 		driver.quit();
 	}
-	
+
 	@After(order=1)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
