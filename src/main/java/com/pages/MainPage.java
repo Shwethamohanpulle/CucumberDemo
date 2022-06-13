@@ -21,5 +21,5 @@ private WebDriver driver;
 	public String getMainpageTitle() {
 		return driver.getTitle();
 	
-
+	}
 }
