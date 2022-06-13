@@ -172,7 +172,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         </execution>
     </executions>
 </plugin>-->
-<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId> 
+<!-- <plugin> 
+            <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId> 
 				<version>3.0.0-M3</version> <executions> <execution> <goals> <goal>integration-test</goal> 
 				</goals> <configuration> UNCOMMENT - To add any exclusions if required <excludes> 
 				<exclude>**/*IT*.java</exclude> </excludes> <includes> UNCOMMENT BELOW LINE 
