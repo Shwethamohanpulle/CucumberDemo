@@ -26,11 +26,6 @@ public class HomePageSteps {
 	private DataStructurePage datastructure;
 	private TimeComplexityPage timecom;
 	
-	
-	
-	
-	
-	
 	@Given("user has already logged  into Application")
 	public void user_has_already_logged_into_application(DataTable dataTable) {
 	List<Map<String,String>> credList =	dataTable.asMaps();
@@ -42,8 +37,8 @@ public class HomePageSteps {
 
 	@Given("user is on home page")
 	public void user_is_on_home_page() {
-    title =	homepage.getHomePageTitle();
-    System.out.println("Home page title is :"+title );
+	    title =	homepage.getHomePageTitle();
+	    System.out.println("Home page title is :"+title );
 	}
 	
 	@When("user clicks on first link")
@@ -53,15 +48,15 @@ public class HomePageSteps {
 
 	@Then("user should land on Data Structure page")
 	public void user_should_land_on_data_structure_page() {
-	title =	datastructure.getDataStructurePageTitle(); 
-	System.out.println("Data Strucute page title is :"+title);
+		title =	datastructure.getDataStructurePageTitle(); 
+		System.out.println("Data Strucute page title is :"+title);
 	}
 	
 	@Given("user is on data strucure page")
 	public void user_is_on_data_strucure_page() {
-		 datastructure	= homepage.clickOnLinkTest();
+		datastructure	= homepage.clickOnLinkTest();
 		title =	datastructure.getDataStructurePageTitle();
-	    System.out.println("page title is :"+title );   
+		System.out.println("page title is :"+title );   
 	}
 
 	@When("user clicks on first link of data strucure")
